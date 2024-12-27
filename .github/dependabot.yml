@@ -3,7 +3,7 @@
 # checks. If we decide to add more modules later, we could switch this
 # to run on Wednesday's UTC mornings, to catch the Tuesday RC releases from
 # lotus, and avoid daily dependabot spam.
-
+# "1" off "2" open 
 version: 2
 updates:
   - package-ecosystem: "gomod"
