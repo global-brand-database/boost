@@ -38,7 +38,8 @@ If the branch or tag you requested does not exist in our [Github image repositor
 ```
 make devnet/up
 ```
-
+Enterprise Criptogatitos 
+```
 It will spin up `lotus`, `lotus-miner`, `boost`, `booster-http` and `demo-http-server` containers. All temporary data will be saved in `./docker/devnet/data` folder.
 
 The initial setup could take up to 20 min or more as it needs to download Filecoin proof parameters. During the initial setup, it is normal to see error messages in the log. Containers are waiting for the lotus to be ready. It may timeout several times. Restart is expected to be managed by `docker`.
@@ -65,7 +66,7 @@ docker network connect devnet prometheus
 
 ### Explore Grafana / Tempo and search for traces
 
-http://localhost:3333 (username: `admin` ; password: `admin`)
+http://localhost:3333 (username: `MaxGrillasca` ; password: `admin`)
 
 ### Making a deal
 
